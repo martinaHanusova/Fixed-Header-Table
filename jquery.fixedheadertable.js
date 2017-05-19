@@ -286,7 +286,7 @@
 
         $self.insertBefore($wrapper)
           .removeAttr('style')
-          .append($wrapper.find('tfoot'))
+          .append($wrapper.find('.fht-fixed-body tfoot'))
           .removeClass('fht-table fht-table-init')
           .find('.fht-cell')
           .remove();
